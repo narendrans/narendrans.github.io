@@ -1,8 +1,6 @@
 <html>
-<!-- master -->
 	<head>
 		<title>Narendran Sankaran</title>
-		<!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">-->
 		<link href="//bootswatch.com/journal/bootstrap.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 		<link href="http://fonts.googleapis.com/css?family=Artifika" rel="stylesheet" type="text/css">
@@ -34,8 +32,6 @@
 							<li>
 								<a href="#" id="socialButton" data-target="#socialModal">Social</a>
 							</li>
-							<!--<li><a href="#" id="contactButton" data-target="#contactModal">Contact</a>
-							</li>-->
 						</ul>
 					</div>
 				</div>
@@ -241,27 +237,12 @@
 					<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 					<script src="https://rawgithub.com/narendrans/jquery-iconify/master/jquery.iconify.js"></script>
 					<script>
-						$('#contactButton').click(function(e) {
-
-							e.preventDefault();
-							$('#contactModal').modal();
-						});
 
 						$('#socialButton').click(function(e) {
 
 							e.preventDefault();
 							$('#socialModal').modal();
 						});
-
-						function checkEmailValidity(e) {
-
-							var email = "^[-0-9A-Za-z!#$%&'*+/=?^_`{|}~.]+@[-0-9A-Za-z!#$%&'*+/=?^_`{|}~.]+";
-
-							if (!e.match(email))
-								return false;
-							else
-								return true;
-						}
 
 						$('#twitter').iconify();
 						$('#linkedin').iconify();
