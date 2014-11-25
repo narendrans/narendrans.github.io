@@ -1,25 +1,36 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-11-25 14:15:40
-categories: jekyll update
+title:  "My first blog after migrating to Github"
+date:   2014-11-24 18:28:31
+categories: updates
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I have been using [GoDaddy][2] for more than 3 years to host my website and my blog. My homepage is just simple static content ([Bootstrap][1]). I used [Wordpress][6] for my blogging needs. A domain costs somewhere around 5-10 USD per year. A basic web hosting would cost anywhere between 20-30 USD per year. For the first year though you can get really cheap hosting and domain with the help of coupons. But from second year this becomes impossible. Most of the hosting sites are willing to give coupons of 75% off for new customers. With some googling you can get a new domain and hosting space for as little as 5-10 USD per year (for the first year)! 
 
-Jekyll also offers powerful support for code snippets:
+Here is what I was using for almost 4 years till now,
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+**Email**: [Google Apps Free Edition][5]  
+**Domain**: [GoDaddy][2]  
+**Hosting**: [GoDaddy][2] (Economy/Deluxe)  
+**Blog**: [Wordpress][6]  
+  
+Now,  
+  
+**Email**: [Google Apps Free Edition][5]  
+**Domain**: [GoDaddy][2]  
+**Hosting**: [GitHub][3]  
+**Blog**: [Jekyll][4]  
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+The only reason why I am renewing this domain is because of Google Apps. With nearly 15 GB for an account and 50 accounts as the limit and with Google discontinuing free edition, I don't want to lose this. But spending money for hosting doesn't make any sense when you no longer make the most of it. Fortunately I still have [Azure][7] and [Google Cloud][8] credits that will be enough for a year. If they too run out, there is always Google AppEngine which has PHP support. 
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+PS: This nice [Markdown cheatsheet][9] can help you to get on speed with Jekyll.
+
+[1]: http://getbootstrap.com/
+[2]: http://godaddy.com/
+[3]: http://github.com/pages
+[4]: http://jekyllrb.com/
+[5]: https://support.google.com/a/answer/2855120?hl=en
+[6]: https://wordpress.org/
+[7]: http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits/
+[8]: https://cloud.google.com/free-trial/
+[9]: http://support.mashery.com/docs/read/customizing_your_portal/Markdown_Cheat_Sheet
