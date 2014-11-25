@@ -1,0 +1,12 @@
+# Site settings
+title: Naren's blog
+email: me@narendran.info
+description: > # this means to ignore newlines until "baseurl:"
+  Just another blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://narendrans.github.io" # the base hostname & protocol for your site
+twitter_username: narens
+github_username:  narendrans
+
+# Build settings
+markdown: kramdown
