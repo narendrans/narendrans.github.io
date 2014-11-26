@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My first blog after migrating to Github"
+title:  "My first blog post after migrating to Github"
 date:   2014-11-24 18:28:31
 categories: updates
 ---
