@@ -49,7 +49,7 @@
     <header>
       
         <div class="icon"></div>
-        <time datetime="2014-11-26T18:15:22.000Z"><a href="/blog/2014/11/26/Rapid-blogging-with-Hexo/">Nov 26 2014</a></time>
+        <time datetime="2014-11-26T18:27:15.000Z"><a href="/blog/2014/11/26/Rapid-blogging-with-Hexo/">Nov 26 2014</a></time>
       
       
   
@@ -75,7 +75,7 @@
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> dev</div><div class="line">hexo <span class="keyword">new</span> <span class="string">"Rapid blogging with Hexo"</span></div></pre></td></tr></table></figure>
 
 <p>Generate the blog to prod/blog and push dev and prod branches</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rm -rf prod/blog && <span class="built_in">cd</span> dev && hexo generate</div><div class="line">git commit <span class="operator">-a</span> -m <span class="string">"commit"</span> && git push</div><div class="line"><span class="built_in">cd</span> ../prod/</div><div class="line">git commit <span class="operator">-a</span> -m <span class="string">"commit"</span>git push && <span class="built_in">cd</span> ..</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rm -rf prod/blog && <span class="built_in">cd</span> dev && hexo generate</div><div class="line">git commit <span class="operator">-a</span> -m <span class="string">"commit"</span> && git push</div><div class="line"><span class="built_in">cd</span> ../prod/</div><div class="line">git commit <span class="operator">-a</span> -m <span class="string">"commit"</span> && git push && <span class="built_in">cd</span> ..</div></pre></td></tr></table></figure>
 
 <p>Everytime I update/add a new blog I would just use the above chain of commands (Just copy paste). Using a static blogger like <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> along with GitHub is just easy and interesting!</p>
 
