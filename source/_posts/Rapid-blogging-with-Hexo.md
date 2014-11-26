@@ -1,6 +1,6 @@
 title: Rapid blogging with Hexo
 date: 2014-11-26 18:27:15
-tags:
+tags: hexo
 ---
 
 After running into some problems with jekyll I decided to give [Hexo][1] a try. I used a dev branch to keep the hexo files and 
@@ -40,9 +40,9 @@ Generate the blog to prod/blog and push dev and prod branches
 
 ```
 rm -rf prod/blog && cd dev && hexo generate
-git commit -a -m "commit" && git push
+git add --all && git commit -a -m "commit" && git push
 cd ../prod/
-git commit -a -m "commit" && git push && cd ..
+git add --all && commit -a -m "commit" && git push && cd ..
 ```
 
 Everytime I update/add a new blog I would just use the above chain of commands (Just copy paste). Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
