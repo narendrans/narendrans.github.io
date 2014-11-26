@@ -55,14 +55,12 @@ cd ../prod/
 git add --all && git commit -a -m "commit" && git push && cd ..
 ```
 
-To use it again paste it in a file and run,
-
-`sh build.sh`
-
 Everytime I update/add a new blog I would just run `sh build.sh`. Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
 
-You can use chrome to do all this. Just install [Chrome Secure Shell][2]
-Create an account in [Disqus][3] to enable comments.
+Note:  
+
+* You can use chrome to do all this. Just install [Chrome Secure Shell][2]
+* Create an account in [Disqus][3] to enable comments.
 [1]: http://hexo.io/
 [2]: https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en
 [3]: https://disqus.com
