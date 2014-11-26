@@ -79,7 +79,7 @@ disqus_shortname: bloggernaren
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: moon-metro
 exclude_generator:
 
 # Deployment
