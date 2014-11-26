@@ -14,7 +14,7 @@ Here is what I was using for almost 4 years till now,
 **Hosting**: [GoDaddy][2] (Economy/Deluxe)  
 **Blog**: [Wordpress][6]  
 <br/>  
-Now,  
+Now, 
 <br/>  
 **Email**: [Google Apps Free Edition][5]  
 **Domain**: [GoDaddy][2]  
