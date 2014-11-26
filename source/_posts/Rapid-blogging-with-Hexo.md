@@ -31,7 +31,9 @@ npm install && cd ..```
 <br/>
 Install a theme
 
-```git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light```
+```
+git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light
+```
 
 <br/>
 Create a blog post 
