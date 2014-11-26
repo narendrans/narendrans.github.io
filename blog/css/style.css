@@ -322,6 +322,7 @@ a:hover {
   }
 }
 #page-heading-wrap {
+  display: none;
   text-align: left;
   line-height: 1.4em;
   padding: 35px 0;
