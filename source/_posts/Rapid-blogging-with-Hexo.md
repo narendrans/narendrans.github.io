@@ -31,7 +31,7 @@ Install a theme
 
 `git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light`
 
-Create a blog post
+Create a blog post 
 
 ```
 cd dev
