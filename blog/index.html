@@ -151,20 +151,20 @@ body{ -webkit-animation: bugfix infinite 1s; }
 <p>First I created another dev branch in github. And then cloned both the dev and master branch. (Use application key so that git doesn’t ask for username and password everytime)</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="title">git</span> clone <span class="url">https://&lt;app</span> key&gt;<span class="variable">@github</span>.com/narendrans/narendrans.github.io.git prod</div><div class="line">git clone <span class="url">https://&lt;app</span> key&gt;<span class="variable">@github</span>.com/narendrans/narendrans.github.io.git --branch dev dev</div></pre></td></tr></table></figure>
 
-<p><br><br>Configure username and email,<br><br></p>
+<p><br><br>Configure username and email,</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --<span class="keyword">global</span> user.name <span class="string">"Naren"</span></div><div class="line">git config --<span class="keyword">global</span> user.email blog<span class="decorator">@narendran.info</span></div></pre></td></tr></table></figure>
 
 <p><br></p>
-<p>Install hexo<br><br></p>
+<p>Install hexo</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">sudo</span> npm install hexo</div><div class="line"><span class="built_in">cd</span> dev && hexo init</div><div class="line">npm install && <span class="built_in">cd</span> ..</div></pre></td></tr></table></figure>
 
 <p><br><br>Install a theme</p>
-<p><br><br><code>git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light</code></p>
-<p><br><br>Create a blog post<br><br></p>
+<p><code>git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light</code></p>
+<p><br><br>Create a blog post </p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> dev</div><div class="line">hexo <span class="keyword">new</span> <span class="string">"Rapid blogging with Hexo"</span></div></pre></td></tr></table></figure>
 
 
-<p> <br><br>Generate the blog to prod/blog and push dev and prod branches<br><br></p>
+<p> <br><br>Generate the blog to prod/blog and push dev and prod branches</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rm -rf prod/blog && <span class="keyword">cd</span> dev && hexo generate</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push</div><div class="line"><span class="keyword">cd</span> ../prod/</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push && <span class="keyword">cd</span> ..</div></pre></td></tr></table></figure>
 
 <p><br><br>Everytime I update/add a new blog I would just run <code>sh build.sh</code>. Using a static blogger like <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> along with GitHub is just easy and interesting!<br><br><br><br>Note:  </p>
