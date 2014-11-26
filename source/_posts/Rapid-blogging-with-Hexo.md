@@ -36,7 +36,7 @@ Create a blog post
 ```
 cd dev
 hexo new "Rapid blogging with Hexo"```
-
+ 
 Generate the blog to prod/blog and push dev and prod branches
 
 ```
