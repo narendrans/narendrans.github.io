@@ -59,7 +59,7 @@ To use it again paste it in a file and run,
 
 `sh build.sh`
 
-Everytime I update/add a new blog I would just run `sh make.sh`. Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
+Everytime I update/add a new blog I would just run `sh build.sh`. Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
 
 You can use chrome to do all this. Just install [Chrome Secure Shell][2]
 Create an account in [Disqus][3] to enable comments.
