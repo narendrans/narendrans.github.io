@@ -1,6 +1,6 @@
 title: Rapid blogging with Hexo
 date: 2014-11-26 18:27:15
-tags: hexo
+tags: hexo github
 ---
 
 After running into some problems with jekyll I decided to give [Hexo][1] a try. I used a dev branch to keep the hexo files and 
@@ -47,4 +47,7 @@ git add --all && git commit -a -m "commit" && git push && cd ..
 
 Everytime I update/add a new blog I would just use the above chain of commands (Just copy paste). Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
 
+You can use chrome to do all this. Just install [Chrome Secure Shell][2]
+
 [1]: http://hexo.io/
+[2]: https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en
