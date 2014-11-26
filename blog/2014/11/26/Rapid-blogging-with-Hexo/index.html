@@ -61,16 +61,20 @@
     <div class="entry">
       
         <p>After running into some problems with jekyll I decided to give <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> a try. I used a dev branch to keep the hexo files and<br>the master branch where the blog will be listed. Setting up hexo is quick and easy.</p>
-<p>First I create another dev branch in github. And then cloned both the dev and master branch. (Use application key so that git doesn’t ask for username and password everytime)</p>
-<p><code>git clone https://&lt;app key&gt;@github.com/narendrans/narendrans.github.io.git prod</code><br><code>git clone https://&lt;app key&gt;@github.com/narendrans/narendrans.github.io.git --branch dev dev</code></p>
+<p>First I created another dev branch in github. And then cloned both the dev and master branch. (Use application key so that git doesn’t ask for username and password everytime)</p>
+<figure class="highlight git"><figcaption><span>clone</span><a href="https://<app" target="_blank" rel="external">key>@github.com/narendrans/narendrans.github.io.git prod</a></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">git</span> clone <span class="url">https://&lt;app</span> key&gt;<span class="variable">@github</span>.com/narendrans/narendrans.github.io.git --branch dev dev</div></pre></td></tr></table></figure>
+
 <p>Configure username and email</p>
-<p><code>git config --global user.name &quot;Naren&quot;</code><br><code>git config --global user.email blog@narendran.info</code></p>
+<figure class="highlight git"><figcaption><span>config --global user.name "Naren"</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">git</span> config --global user.email blog<span class="variable">@narendran</span>.<span class="built_in">info</span></div></pre></td></tr></table></figure>
+
 <p>Install hexo</p>
-<p><code>sudo npm install hexo</code><br><code>cd dev &amp;&amp; hexo init</code><br><code>npm install &amp;&amp; cd ..</code></p>
+<figure class="highlight sudo"><figcaption><span>npm install hexo</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> dev && hexo init</div><div class="line">npm install && <span class="built_in">cd</span> ..</div></pre></td></tr></table></figure>
+
 <p>Install a theme</p>
 <p><code>git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light</code></p>
 <p>Create a blog post</p>
-<p><code>cd dev</code><br><code>hexo new &quot;Rapid blogging with Hexo&quot;</code></p>
+<figure class="highlight cd"><figcaption><span>dev</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo <span class="keyword">new</span> <span class="string">"Rapid blogging with Hexo"</span></div></pre></td></tr></table></figure>
+
 <p>Generate the blog to prod/blog and push dev and prod branches</p>
 <p><code>rm -rf prod/blog &amp;&amp; cd dev &amp;&amp; hexo generate &amp;&amp; git commit -a -m &quot;commit&quot; &amp;&amp; git push &amp;&amp; cd ../prod/ &amp;&amp; git commit -a -m &quot;commit&quot; &amp;&amp; git push &amp;&amp; cd ..</code></p>
 <p>Everytime I update/add a new blog I would just use the above chain of commands. Using a static blogger like <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> along with GitHub is just easy and interesting!</p>
