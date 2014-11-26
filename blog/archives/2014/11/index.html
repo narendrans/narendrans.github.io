@@ -78,6 +78,7 @@
 <p>Create a blog post </p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> dev</div><div class="line">hexo <span class="keyword">new</span> <span class="string">"Rapid blogging with Hexo"</span></div></pre></td></tr></table></figure>
 
+
 <p>Generate the blog to prod/blog and push dev and prod branches</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rm -rf prod/blog && <span class="keyword">cd</span> dev && hexo generate</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push</div><div class="line"><span class="keyword">cd</span> ../prod/</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push && <span class="keyword">cd</span> ..</div></pre></td></tr></table></figure>
 
