@@ -49,6 +49,50 @@
     <header>
       
         <div class="icon"></div>
+        <time datetime="2014-11-24T18:28:31.000Z"><a href="/blog/2014/11/24/rapid-blogging-with-hexo/">Nov 24 2014</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/blog/2014/11/24/rapid-blogging-with-hexo/">Rapid blogging with Hexo</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>After running into some problems with jekyll I decided to give <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> a try. I used a dev branch to keep the hexo files and<br>the master branch where the blog will be listed. Setting up hexo is quick and easy.</p>
+<p>First I create another dev branch in github. And then cloned both the dev and master branch. (Use application key so that git doesn’t ask for username and password everytime)</p>
+<p><code>git clone https://&lt;app key&gt;@github.com/narendrans/narendrans.github.io.git prod</code><br><code>git clone https://&lt;app key&gt;@github.com/narendrans/narendrans.github.io.git --branch dev dev</code></p>
+<p>Configure username and email</p>
+<p><code>git config --global user.name &quot;Naren&quot;</code><br><code>git config --global user.email blog@narendran.info</code></p>
+<p>Install hexo</p>
+<p><code>sudo npm install hexo</code><br><code>cd dev &amp;&amp; hexo init</code><br><code>npm install &amp;&amp; cd ..</code></p>
+<p>Install a theme</p>
+<p><code>git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light</code></p>
+<p>Generate the blog to prod/blog and push dev and prod branches</p>
+<p><code>rm -rf prod/blog &amp;&amp; cd dev &amp;&amp; hexo generate &amp;&amp; git commit -a -m &quot;commit&quot; &amp;&amp; git push &amp;&amp; cd ../prod/ &amp;&amp; git commit -a -m &quot;commit&quot; &amp;&amp; git push &amp;&amp; cd ..</code></p>
+<p>Everytime I update/add a new blog I would just use the above chain of commands. Using a static blogger like <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> along with GitHub is just easy and interesting!</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
         <time datetime="2014-11-24T18:28:31.000Z"><a href="/blog/2014/11/24/hello-world/">Nov 24 2014</a></time>
       
       
@@ -101,7 +145,7 @@
   <h3 class="title">Categories</h3>
   <ul class="entry">
   
-    <li><a href="/blog/categories/updates/">updates</a><small>1</small></li>
+    <li><a href="/blog/categories/updates/">updates</a><small>2</small></li>
   
   </ul>
 </div>
