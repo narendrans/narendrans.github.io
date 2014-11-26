@@ -13,40 +13,40 @@ First I created another dev branch in github. And then cloned both the dev and m
 git clone https://<app key>@github.com/narendrans/narendrans.github.io.git prod
 git clone https://<app key>@github.com/narendrans/narendrans.github.io.git --branch dev dev
 ```
-
+<br/>
 Configure username and email,
-
+<br/>
 
 ```
 git config --global user.name "Naren"
 git config --global user.email blog@narendran.info```
-
+<br/>
 
 Install hexo
-
+<br/>
 
 ```
 sudo npm install hexo
 cd dev && hexo init
 npm install && cd ..```
 
-
+<br/>
 Install a theme
 
-
+<br/>
 `git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light`
 
-
+<br/>
 Create a blog post 
-
+<br/>
 
 ```
 cd dev
 hexo new "Rapid blogging with Hexo"```
  
- 
+ <br/>
 Generate the blog to prod/blog and push dev and prod branches
-
+<br/>
 
 ```
 rm -rf prod/blog && cd dev && hexo generate
@@ -54,7 +54,7 @@ git add --all && git commit -a -m "commit" && git push
 cd ../prod/
 git add --all && git commit -a -m "commit" && git push && cd ..
 ```
-
+<br/>
 Everytime I update/add a new blog I would just run `sh build.sh`. Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
 <br/><br/>
 Note:  
