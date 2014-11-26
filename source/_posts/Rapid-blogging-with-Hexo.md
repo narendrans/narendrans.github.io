@@ -14,7 +14,7 @@ git clone https://<app key>@github.com/narendrans/narendrans.github.io.git prod
 git clone https://<app key>@github.com/narendrans/narendrans.github.io.git --branch dev dev
 ```
 
-Configure username and email
+Configure username and email,
 
 ```
 git config --global user.name "Naren"
