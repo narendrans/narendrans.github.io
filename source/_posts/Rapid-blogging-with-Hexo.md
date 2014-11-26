@@ -15,7 +15,6 @@ git clone https://<app key>@github.com/narendrans/narendrans.github.io.git --bra
 ```
 <br/>
 Configure username and email,
-<br/>
 
 ```
 git config --global user.name "Naren"
@@ -23,7 +22,6 @@ git config --global user.email blog@narendran.info```
 <br/>
 
 Install hexo
-<br/>
 
 ```
 sudo npm install hexo
@@ -33,12 +31,10 @@ npm install && cd ..```
 <br/>
 Install a theme
 
-<br/>
 `git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light`
 
 <br/>
 Create a blog post 
-<br/>
 
 ```
 cd dev
@@ -46,7 +42,6 @@ hexo new "Rapid blogging with Hexo"```
  
  <br/>
 Generate the blog to prod/blog and push dev and prod branches
-<br/>
 
 ```
 rm -rf prod/blog && cd dev && hexo generate
