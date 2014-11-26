@@ -1,6 +1,7 @@
 title: Rapid blogging with Hexo
 date: 2014-11-26 18:27:15
-tags: hexo github
+tags: hexo, github
+comments: true
 ---
 
 After running into some problems with jekyll I decided to give [Hexo][1] a try. I used a dev branch to keep the hexo files and 
