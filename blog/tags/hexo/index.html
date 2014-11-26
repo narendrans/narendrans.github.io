@@ -171,10 +171,12 @@ body{ -webkit-animation: bugfix infinite 1s; }
 <p>Generate the blog to prod/blog and push dev and prod branches</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rm -rf prod/blog && <span class="keyword">cd</span> dev && hexo generate</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push</div><div class="line"><span class="keyword">cd</span> ../prod/</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push && <span class="keyword">cd</span> ..</div></pre></td></tr></table></figure>
 
-<p>To use it again paste it in a file and run,</p>
-<p><code>sh build.sh</code></p>
 <p>Everytime I update/add a new blog I would just run <code>sh build.sh</code>. Using a static blogger like <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> along with GitHub is just easy and interesting!</p>
-<p>You can use chrome to do all this. Just install <a href="https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en" target="_blank" rel="external">Chrome Secure Shell</a><br>Create an account in <a href="https://disqus.com" target="_blank" rel="external">Disqus</a> to enable comments.</p>
+<p>Note:  </p>
+<ul>
+<li>You can use chrome to do all this. Just install <a href="https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en" target="_blank" rel="external">Chrome Secure Shell</a></li>
+<li>Create an account in <a href="https://disqus.com" target="_blank" rel="external">Disqus</a> to enable comments.</li>
+</ul>
 
           
         
