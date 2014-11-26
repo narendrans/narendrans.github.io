@@ -33,7 +33,10 @@
             </li>
           </ul>
         <% } else { %>
-          <h2><% if (config.subtitle){ %><%= config.subtitle %><% } %></h2>
+          <script>
+          var link = document.getElementById('page-heading-wrap');
+link.style.display = 'none';
+          </script>
         <% } %>
       </div>
   	</div>
