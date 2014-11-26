@@ -1,6 +1,6 @@
 title: Rapid blogging with Hexo
 date: 2014-11-26 18:27:15
-tags: hexo, github
+tags: hexo
 comments: true
 ---
 
