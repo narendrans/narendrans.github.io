@@ -56,7 +56,7 @@ git add --all && git commit -a -m "commit" && git push && cd ..
 ```
 
 Everytime I update/add a new blog I would just run `sh build.sh`. Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
-
+<br/><br/>
 Note:  
 
 * You can use chrome to do all this. Just install [Chrome Secure Shell][2]
