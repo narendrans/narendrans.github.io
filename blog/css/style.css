@@ -3,9 +3,8 @@
   padding: 0;
 }
 body {
-  background: #f6f7f9;
   color: #444;
-  font-family: "Helvetica Neue", Roboto, 'Open Sans', Tahoma, Arial, "Droid Sans", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", 'Microsoft Yahei', Simsun, sans-serif;
+  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
   font-size: 16px;
   height: 100%;
 }
@@ -21,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", 'Microsoft Yahei', Simsun, sans-serif;
+  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
 }
 h1 {
   font-size: 1.8em;
@@ -136,7 +135,7 @@ a:hover {
   }
 }
 #header .alignleft h1 a {
-  font-family: 'Play', "Hiragino Sans GB", cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", Simsun, sans-serif;
+  font-family: 'Playball', cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
 }
 #header .alignleft h1 a:hover {
   color: #009cdc;
@@ -153,10 +152,10 @@ a:hover {
   margin-top: 10px;
 }
 #header .alignleft h2 a {
-  font-family: 'Play', "Hiragino Sans GB", cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", Simsun, sans-serif;
+  font-family: 'Playball', cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
 }
 #header #main-nav {
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", 'Microsoft Yahei', Simsun, sans-serif;
+  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
   padding-top: 10px;
   letter-spacing: 1px;
 }
@@ -455,24 +454,11 @@ article .post-content-index header .icon:before {
 article .post-content-index header .title {
   font-size: px;
   font-weight: 300;
-  display: inline;
 }
 article .post-content-index header .title a {
   color: #009cdc;
 }
 article .post-content-index header .title a:hover {
-  color: #000;
-  text-decoration: none;
-}
-article .post-content-index header time {
-  font-size: 1.5em;
-  font-weight: 300;
-  display: inline-block;
-}
-article .post-content-index header time a {
-  color: #009cdc;
-}
-article .post-content-index header time a:hover {
   color: #000;
   text-decoration: none;
 }
@@ -494,6 +480,10 @@ article .post-content-index header ul li {
 article .post-content-index header ul li .heading-span {
   color: #444;
   font-weight: 400;
+}
+article .post-content-index header ul li time {
+  color: #666;
+  display: inline;
 }
 article .post-content-index header ul li a {
   text-decoration: underline;
@@ -572,13 +562,12 @@ article .entry {
 }
 article .entry p {
   word-wrap: break-word;
-  margin: 20px 0;
 }
 article .entry blockquote {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   font-style: italic;
-  font-family: font-serif;
+  font-family: "Georgia", serif;
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
@@ -597,7 +586,7 @@ article .entry blockquote footer cite:before {
 }
 article .entry code,
 article .entry pre {
-  font-family: Monaco, Menlo, Consolas, Courier New, 'Microsoft Yahei';
+  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
 }
 article .entry code {
   background: #eee;
@@ -613,7 +602,6 @@ article .entry pre {
   background: #eee;
   border: 1px solid #ddd;
   margin-top: 15px;
-  margin-bottom: 15px;
   overflow: auto;
   padding: 7px 15px;
   -webkit-border-radius: 2px;
@@ -630,8 +618,7 @@ article .entry pre code {
 article .entry ul,
 article .entry ol,
 article .entry dl {
-  padding-top: 20px;
-  padding-left: 40px;
+  margin-left: 20px;
 }
 article .entry ul ul,
 article .entry ol ul,
@@ -644,30 +631,7 @@ article .entry ol dl,
 article .entry dl dl {
   margin-top: 0;
 }
-article .entry ul li p {
-  margin-top: 0;
-}
-article .entry hr {
-  margin: 20px auto;
-  margin-top: 21px;
-  margin-bottom: 21px;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-top: 2px dotted #eee;
-  display: block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-article .entry h1 {
-  padding: 6px 8px;
-  background: #f3f3f3;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-}
+article .entry h1,
 article .entry h2 {
   font-weight: normal;
   border-bottom: 1px solid #ddd;
@@ -893,12 +857,12 @@ article footer .article-nav .article-next {
   }
 }
 #sidebar .widget {
-  background: #f6f7f9;
+  background: #fff;
   margin-bottom: 30px;
   word-wrap: break-word;
 }
 #sidebar .widget .title {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: 2px solid #009cdc;
   margin-bottom: 20px;
   font-size: 1em;
@@ -929,44 +893,11 @@ article footer .article-nav .article-next {
   list-style: disc;
   margin-left: 20px;
 }
-#sidebar .toc {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  background-color: #f6f7f9;
-  margin: 0 0 1em 0;
-  padding: 1em 1em 0 1em;
-  border: 1px solid #009cdc;
-  border-color: #ddd;
-  font-size: 1em;
-  line-height: 1.6em;
-}
-#sidebar .toc strong {
-  padding: 0.3em 0;
-}
-#sidebar .toc ol {
-  margin-left: 0;
-}
-#sidebar .toc .toc {
-  border: 0;
-  padding: 1em;
-}
-#sidebar .toc .toc li {
-  list-style-type: none;
-}
-#sidebar .toc .toc-child {
-  padding-left: 1.5em;
-}
 #sidebar .search {
   margin-bottom: 30px;
 }
 #sidebar .search input {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", 'Microsoft Yahei', Simsun, sans-serif;
+  font-family: 'Open Sans', Tahoma, Arial, Roboto, "Droid Sans", "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
   background: #fff;
   font-style: italic;
   font-size: 1em;
@@ -1049,7 +980,7 @@ article footer .article-nav .article-next {
 }
 #footer .alignleft {
   padding-top: 22px;
-  font-family: 'Play', "Hiragino Sans GB", cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", Simsun, sans-serif;
+  font-family: 'Playball', cursive, "Helvetica Neue", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-serif;
 }
 #footer .alignright {
   padding: 15px 0;
@@ -1106,7 +1037,7 @@ article footer .article-nav .article-next {
 }
 .entry .gist .gist-file .gist-data pre {
   padding: 0 !important;
-  font-family: Monaco, Menlo, Consolas, Courier New, 'Microsoft Yahei';
+  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
 }
 .entry .gist .gist-file .gist-meta {
   background: none;
