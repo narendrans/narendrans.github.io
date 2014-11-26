@@ -5,6 +5,7 @@ tags: hexo
 
 After running into some problems with jekyll I decided to give [Hexo][1] a try. I used a dev branch to keep the hexo files and 
 the master branch where the blog will be listed. Setting up hexo is quick and easy. The reason of having two separate branches is that GitHub automatically builds everytime you push files. I tried adding .nojekyll but I couldn't get it to work. This may not be an elegant approach but it works well for me!
+
 First I created another dev branch in github. And then cloned both the dev and master branch. (Use application key so that git doesn't ask for username and password everytime)
 
 ```
