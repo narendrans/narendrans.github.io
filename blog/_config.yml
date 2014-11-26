@@ -3,7 +3,7 @@ title: Naren's Blog
 email: blog@narendran.info
 description: > # this means to ignore newlines until "baseurl:"
   My personal blog. Almost everything I want to share to the world! :)
-baseurl: "http://www.narendran.info/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://narendran.info" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll

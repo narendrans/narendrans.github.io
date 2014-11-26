@@ -4,10 +4,10 @@
     <title>Naren&#39;s Blog</title>
     <description>My personal blog. Almost everything I want to share to the world! :)
 </description>
-    <link>http://narendran.infohttp://www.narendran.info/blog//</link>
-    <atom:link href="http://narendran.infohttp://www.narendran.info/blog//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Nov 2014 19:52:56 -0500</pubDate>
-    <lastBuildDate>Tue, 25 Nov 2014 19:52:56 -0500</lastBuildDate>
+    <link>http://narendran.info/</link>
+    <atom:link href="http://narendran.info/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 25 Nov 2014 20:06:44 -0500</pubDate>
+    <lastBuildDate>Tue, 25 Nov 2014 20:06:44 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -34,8 +34,8 @@
 
 </description>
         <pubDate>Mon, 24 Nov 2014 13:28:31 -0500</pubDate>
-        <link>http://narendran.infohttp://www.narendran.info/blog//updates/2014/11/24/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://narendran.infohttp://www.narendran.info/blog//updates/2014/11/24/welcome-to-jekyll.html</guid>
+        <link>http://narendran.info/updates/2014/11/24/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://narendran.info/updates/2014/11/24/welcome-to-jekyll.html</guid>
         
         
         <category>updates</category>
