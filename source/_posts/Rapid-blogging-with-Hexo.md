@@ -16,28 +16,37 @@ git clone https://<app key>@github.com/narendrans/narendrans.github.io.git --bra
 
 Configure username and email,
 
+
 ```
 git config --global user.name "Naren"
 git config --global user.email blog@narendran.info```
 
+
 Install hexo
+
 
 ```
 sudo npm install hexo
 cd dev && hexo init
 npm install && cd ..```
 
+
 Install a theme
+
 
 `git clone https://github.com/hexojs/hexo-theme-light.git dev/themes/light`
 
+
 Create a blog post 
+
 
 ```
 cd dev
 hexo new "Rapid blogging with Hexo"```
  
+ 
 Generate the blog to prod/blog and push dev and prod branches
+
 
 ```
 rm -rf prod/blog && cd dev && hexo generate
@@ -45,6 +54,7 @@ git add --all && git commit -a -m "commit" && git push
 cd ../prod/
 git add --all && git commit -a -m "commit" && git push && cd ..
 ```
+
 
 Everytime I update/add a new blog I would just use the above chain of commands (Just copy paste). Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
 
