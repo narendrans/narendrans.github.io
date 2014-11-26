@@ -23,7 +23,7 @@ Now,
 
 The only reason why I am renewing this domain is because of Google Apps. With nearly 15 GB for an account and 50 accounts as the limit and with Google discontinuing free edition, I don't want to lose this. But spending money for hosting doesn't make any sense when you no longer make the most of it. Fortunately I still have [Azure][7] and [Google Cloud][8] credits that will be enough for a year. If they too run out, there is always Google AppEngine which has PHP support. 
 
-[Markdown cheatsheet][9]..
+[Markdown cheatsheet][9].
 
 [1]: http://getbootstrap.com/
 [2]: http://godaddy.com/
