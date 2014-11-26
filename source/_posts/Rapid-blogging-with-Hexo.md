@@ -42,7 +42,7 @@ Generate the blog to prod/blog and push dev and prod branches
 rm -rf prod/blog && cd dev && hexo generate
 git add --all && git commit -a -m "commit" && git push
 cd ../prod/
-git add --all && commit -a -m "commit" && git push && cd ..
+git add --all && git commit -a -m "commit" && git push && cd ..
 ```
 
 Everytime I update/add a new blog I would just use the above chain of commands (Just copy paste). Using a static blogger like [Hexo][1] along with GitHub is just easy and interesting!
