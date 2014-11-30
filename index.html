@@ -4,6 +4,8 @@
 		<link href="//bootswatch.com/journal/bootstrap.min.css" rel="stylesheet">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 		<link href="http://fonts.googleapis.com/css?family=Artifika" rel="stylesheet" type="text/css">
+		<link href="css/ripples.min.css" rel="stylesheet">
+        <link href="css/material-wfont.min.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="description" content="This site lists my projects, social media links, resume and contact info.">
 		<style>
@@ -239,7 +241,13 @@
 					<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 					<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 					<script src="https://rawgithub.com/narendrans/jquery-iconify/master/jquery.iconify.js"></script>
-					<script>
+					 <script src="js/ripples.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.material.init();
+            });
+
 
 						$('#socialButton').click(function(e) {
 
