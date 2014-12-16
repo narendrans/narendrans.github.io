@@ -6,8 +6,9 @@ tags: utilities
 Because of various reasons I had to reinstall osx a lot of times (>2 ;)), so I was looking at automating this tedious process of installing all the apps and softwares I needed. I found this very good brew called [cask][1]. After doing a clean install of osx, I just run the below script and all is done!. The first line installs homebrew and the rest of the lines installs other softwares.
 
 <br/>
-```ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-brew cask install firefox-nightly
+`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+
+```brew cask install firefox-nightly
 brew cask install google-chrome
 brew cask install flash
 brew cask install google-hangouts
