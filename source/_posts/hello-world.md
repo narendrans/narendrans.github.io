@@ -7,7 +7,7 @@ post_asset_folder: true
 ---
 
 I have been using [GoDaddy][2] for more than 3 years to host my website and my blog. My homepage is just simple static content ([Bootstrap][1]). I used [Wordpress][6] for my blogging needs. A domain costs somewhere around 5-10 USD per year. A basic web hosting would cost anywhere between 20-30 USD per year. For the first year though you can get really cheap hosting and domain with the help of coupons. But from second year this becomes impossible. Most of the hosting sites are willing to give coupons of 75% off for new customers. With some googling you can get a new domain and hosting space for as little as 5-10 USD per year (for the first year).
-![Alt text](http://www.narendran.info/blog/images/IMAGE_1.jpg)
+
 <br/>       
 Here is what I was using for almost 4 years till now,
 <br/>
