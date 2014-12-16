@@ -5,15 +5,15 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Rapid blogging with Hexo | Naren&#39;s Blog</title>
+  <title>Installing apps easily using brew cask | Naren&#39;s Blog</title>
   <meta name="author" content="Naren">
   
-  <meta name="description" content="After running into some problems with jekyll I decided to give Hexo a try. I used a dev branch to keep the hexo files andthe master branch where the b">
+  <meta name="description" content="Because of various reasons I had to reinstall osx a lot of times (&amp;gt;2 ;)), so I was looking at automating this tedious process of installing all the">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Rapid blogging with Hexo"/>
+  <meta property="og:title" content="Installing apps easily using brew cask"/>
   <meta property="og:site_name" content="Naren&#39;s Blog"/>
 
   
@@ -99,11 +99,11 @@ body{ -webkit-animation: bugfix infinite 1s; }
   	<div class="inner">
       <div class="padding">
     		
-          <h1>Rapid blogging with Hexo</h1>
+          <h1>Installing apps easily using brew cask</h1>
           <ul>
             <li>
               <span class="heading-span">Posted on: </span>
-              <time datetime="2014-11-26T23:27:15.000Z">Nov 26 2014</time>
+              <time datetime="2014-12-16T04:27:16.000Z">Dec 15 2014</time>
             </li>
             
               <li>
@@ -137,31 +137,10 @@ body{ -webkit-animation: bugfix infinite 1s; }
       
       <div class="entry">
         
-          <p>After running into some problems with jekyll I decided to give <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> a try. I used a dev branch to keep the hexo files and<br>the master branch where the blog will be listed. Setting up hexo is quick and easy. The reason of having two separate branches is that GitHub automatically builds everytime you push files. I tried adding .nojekyll but I couldn’t get it to work. This may not be an elegant approach but it works well for me!<br><br><br>First I created another dev branch in github. And then cloned both the dev and master branch. (Use application key so that git doesn’t ask for username and password everytime)</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="title">git</span> clone <span class="url">https://&lt;app</span> key&gt;<span class="variable">@github</span>.com/narendrans/narendrans.github.io.git prod</div><div class="line">git clone <span class="url">https://&lt;app</span> key&gt;<span class="variable">@github</span>.com/narendrans/narendrans.github.io.git --branch dev dev</div></pre></td></tr></table></figure>
+          <p>Because of various reasons I had to reinstall osx a lot of times (&gt;2 ;)), so I was looking at automating this tedious process of installing all the apps and softwares I needed. I found this very good brew called <a href="http://caskroom.io/" target="_blank" rel="external">cask</a>. After doing a clean install of osx I just run the below script and all is done!</p>
+<p><br> <br><br><code>ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">brew cask <span class="operator"><span class="keyword">install</span> firefox-nightly</span></div><div class="line">brew cask <span class="keyword">install</span> google-chrome</div><div class="line">brew cask <span class="keyword">install</span> flash</div><div class="line">brew cask <span class="keyword">install</span> google-hangouts</div><div class="line">brew cask <span class="keyword">install</span> java </div><div class="line">brew cask <span class="keyword">install</span> java7</div><div class="line">brew cask <span class="keyword">install</span> skype</div><div class="line">brew cask <span class="keyword">install</span> google-drive</div><div class="line">brew cask <span class="keyword">install</span> dropbox</div><div class="line">brew cask <span class="keyword">install</span> xampp</div><div class="line">brew cask <span class="keyword">install</span> sublime-<span class="built_in">text</span>-dev</div><div class="line">brew cask <span class="keyword">install</span> github</div><div class="line">brew cask <span class="keyword">install</span> android-file-transfer</div><div class="line">brew cask <span class="keyword">install</span> boom</div><div class="line">brew cask <span class="keyword">install</span> utorrent</div><div class="line">brew cask <span class="keyword">install</span> picasa</div><div class="line"></div><div class="line">brew cask <span class="keyword">install</span> eclipse-jee</div><div class="line">brew cask <span class="keyword">install</span> vmware-fusion</div></pre></td></tr></table></figure>
 
-<p><br><br>Configure username and email,</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --<span class="keyword">global</span> user.name <span class="string">"Naren"</span></div><div class="line">git config --<span class="keyword">global</span> user.email blog<span class="decorator">@narendran.info</span></div></pre></td></tr></table></figure>
-
-<p><br></p>
-<p>Install hexo</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">sudo</span> npm install hexo</div><div class="line"><span class="built_in">cd</span> dev && hexo init</div><div class="line">npm install && <span class="built_in">cd</span> ..</div></pre></td></tr></table></figure>
-
-<p><br><br>Install a theme</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/hexojs/hexo-theme-light.git dev/themes/light</div></pre></td></tr></table></figure>
-
-<p><br><br>Create a blog post </p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> dev</div><div class="line">hexo <span class="keyword">new</span> <span class="string">"Rapid blogging with Hexo"</span></div></pre></td></tr></table></figure>
-
-
-<p> <br><br>Generate the blog to prod/blog and push dev and prod branches</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">rm -rf prod/blog && <span class="keyword">cd</span> dev && hexo generate</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push</div><div class="line"><span class="keyword">cd</span> ../prod/</div><div class="line">git <span class="built_in">add</span> --<span class="keyword">all</span> && git commit -<span class="keyword">a</span> -<span class="keyword">m</span> <span class="string">"commit"</span> && git push && <span class="keyword">cd</span> ..</div></pre></td></tr></table></figure>
-
-<p><br><br>Everytime I update/add a new blog I would just run <code>sh build.sh</code>. Using a static blogger like <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a> along with GitHub is just easy and interesting!<br><br><br><br>Note:  </p>
-<ul>
-<li>You can use chrome to do all this. Just install <a href="https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en" target="_blank" rel="external">Chrome Secure Shell</a></li>
-<li>Create an account in <a href="https://disqus.com" target="_blank" rel="external">Disqus</a> to enable comments.</li>
-</ul>
 
         
       </div>
@@ -169,11 +148,6 @@ body{ -webkit-animation: bugfix infinite 1s; }
         
           
           
-  
-  <div class="tags">
-    <a href="/blog/tags/hexo/">hexo</a>
-  </div>
-
           <div class="share">
   
 
@@ -202,18 +176,10 @@ body{ -webkit-animation: bugfix infinite 1s; }
           
 <nav class="article-nav clearfix">
  
- <div class="article-prev" >
- <a href="/blog/2014/12/15/Installing-apps-easily-using-brew-cask/" title="Installing apps easily using brew cask">
-  <i class="fa fa-long-arrow-left"></i>
-  <span>
-  Installing apps easily using brew cask</span>
-</a>
-</div>
-
 
 <div class="article-next">
-<a href="/blog/2014/11/24/hello-world/"  title="My first blog post after migrating to Github and Hexo">
- <span>My first blog post after migrating to Github and Hexo
+<a href="/blog/2014/11/26/Rapid-blogging-with-Hexo/"  title="Rapid blogging with Hexo">
+ <span>Rapid blogging with Hexo
 </span>
 <i class="fa fa-long-arrow-right"></i>
 </a>

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>updates | Naren&#39;s Blog</title>
+  <title>Archives: 2014/12 | Naren&#39;s Blog</title>
   <meta name="author" content="Naren">
   
   
@@ -108,7 +108,7 @@ link.style.display = 'none';
 
   <div id="content" class="inner">
     <div id="main-col" class="alignleft"><div id="wrapper" class="padding">
-<h2 class="archive-title category">updates</h2>
+<h2 class="archive-title">2014/12</h2>
 
 
   
@@ -122,13 +122,13 @@ link.style.display = 'none';
           <div class="icon"></div>
             
     
-      <h1 class="title transition"><a href="/blog/2014/11/24/hello-world/">My first blog post after migrating to Github and Hexo</a></h1>
+      <h1 class="title transition"><a href="/blog/2014/12/15/Installing-apps-easily-using-brew-cask/">Installing apps easily using brew cask</a></h1>
     
   
           <ul>
             <li>
               <span class="heading-span">Posted on: </span>
-              <time datetime="2014-11-24T23:28:31.000Z">Nov 24 2014</time>
+              <time datetime="2014-12-16T04:27:16.000Z">Dec 15 2014</time>
             </li>
             
               <li>
@@ -143,7 +143,7 @@ link.style.display = 'none';
             <li>
               <span class="heading-span">With: </span>
               
-                <a href="/blog/2014/11/24/hello-world/#disqus_thread">Comments</a>
+                <a href="/blog/2014/12/15/Installing-apps-easily-using-brew-cask/#disqus_thread">Comments</a>
 
               
           </ul>
@@ -152,7 +152,10 @@ link.style.display = 'none';
       <div class="entry">
         
           
-            <p>I have been using <a href="http://godaddy.com/" target="_blank" rel="external">GoDaddy</a> for more than 3 years to host my website and my blog. My homepage is just simple static content (<a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a>). I used <a href="https://wordpress.org/" target="_blank" rel="external">Wordpress</a> for my blogging needs. A domain costs somewhere around 5-10 USD per year. A basic web hosting would cost anywhere between 20-30 USD per year. For the first year though you can get really cheap hosting and domain with the help of coupons. But from second year this becomes impossible. Most of the hosting sites are willing to give coupons of 75% off for new customers. With some googling you can get a new domain and hosting space for as little as 5-10 USD per year (for the first year).<br><br><br>Here is what I was using for almost 4 years till now,<br><br><br><strong>Email</strong>: <a href="https://support.google.com/a/answer/2855120?hl=en" target="_blank" rel="external">Google Apps Free Edition</a><br><strong>Domain</strong>: <a href="http://godaddy.com/" target="_blank" rel="external">GoDaddy</a><br><strong>Hosting</strong>: <a href="http://godaddy.com/" target="_blank" rel="external">GoDaddy</a> (Economy/Deluxe)<br><strong>Blog</strong>: <a href="https://wordpress.org/" target="_blank" rel="external">Wordpress</a><br><br><br>Now,<br><br><br><strong>Email</strong>: <a href="https://support.google.com/a/answer/2855120?hl=en" target="_blank" rel="external">Google Apps Free Edition</a><br><strong>Domain</strong>: <a href="http://godaddy.com/" target="_blank" rel="external">GoDaddy</a><br><strong>Hosting</strong>: <a href="http://github.com/pages" target="_blank" rel="external">GitHub</a><br><strong>Blog</strong>: <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a><br><br><br>The only reason why I am renewing this domain is because of Google Apps. With nearly 15 GB for an account and 50 accounts as the limit and with Google discontinuing free edition, I don’t want to lose this. But spending money for hosting doesn’t make any sense when you no longer make the most of it. Fortunately I still have <a href="http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits/" target="_blank" rel="external">Azure</a> and <a href="https://cloud.google.com/free-trial/" target="_blank" rel="external">Google Cloud</a> credits that will be enough for a year. If they too run out, there is always Google AppEngine which has PHP support.<br><br><br><br><a href="http://support.mashery.com/docs/read/customizing_your_portal/Markdown_Cheat_Sheet" target="_blank" rel="external">Markdown cheatsheet</a>..</p>
+            <p>Because of various reasons I had to reinstall osx a lot of times (&gt;2 ;)), so I was looking at automating this tedious process of installing all the apps and softwares I needed. I found this very good brew called <a href="http://caskroom.io/" target="_blank" rel="external">cask</a>. After doing a clean install of osx I just run the below script and all is done!</p>
+<p><br> <br><br><code>ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;</code></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">brew cask <span class="operator"><span class="keyword">install</span> firefox-nightly</span></div><div class="line">brew cask <span class="keyword">install</span> google-chrome</div><div class="line">brew cask <span class="keyword">install</span> flash</div><div class="line">brew cask <span class="keyword">install</span> google-hangouts</div><div class="line">brew cask <span class="keyword">install</span> java </div><div class="line">brew cask <span class="keyword">install</span> java7</div><div class="line">brew cask <span class="keyword">install</span> skype</div><div class="line">brew cask <span class="keyword">install</span> google-drive</div><div class="line">brew cask <span class="keyword">install</span> dropbox</div><div class="line">brew cask <span class="keyword">install</span> xampp</div><div class="line">brew cask <span class="keyword">install</span> sublime-<span class="built_in">text</span>-dev</div><div class="line">brew cask <span class="keyword">install</span> github</div><div class="line">brew cask <span class="keyword">install</span> android-file-transfer</div><div class="line">brew cask <span class="keyword">install</span> boom</div><div class="line">brew cask <span class="keyword">install</span> utorrent</div><div class="line">brew cask <span class="keyword">install</span> picasa</div><div class="line"></div><div class="line">brew cask <span class="keyword">install</span> eclipse-jee</div><div class="line">brew cask <span class="keyword">install</span> vmware-fusion</div></pre></td></tr></table></figure>
+
 
           
         
@@ -160,7 +163,7 @@ link.style.display = 'none';
       <footer>
         
           <div class="alignright">
-            <a href="/blog/2014/11/24/hello-world/#more" class="more-link">Continue Reading<i class="fa fa-long-arrow-right fa-1"></i></a>
+            <a href="/blog/2014/12/15/Installing-apps-easily-using-brew-cask/#more" class="more-link">Continue Reading<i class="fa fa-long-arrow-right fa-1"></i></a>
           </div>
         
         <div class="clearfix"></div>
