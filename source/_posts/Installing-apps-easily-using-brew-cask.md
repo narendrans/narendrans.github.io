@@ -8,7 +8,8 @@ Because of various reasons I had to reinstall osx a lot of times (>2 ;)), so I w
 <br/>
 `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 
-```brew cask install firefox-nightly
+```
+brew cask install firefox-nightly
 brew cask install google-chrome
 brew cask install flash
 brew cask install google-hangouts
@@ -24,7 +25,6 @@ brew cask install android-file-transfer
 brew cask install boom
 brew cask install utorrent
 brew cask install picasa
-
 brew cask install eclipse-jee
 brew cask install vmware-fusion
 ```
