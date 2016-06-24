@@ -1,195 +1,46 @@
+<!DOCTYPE html>
 <html>
-   <head>
-      <title>Narendran Sankaran</title>
-      <link href="//bootswatch.com/journal/bootstrap.min.css" rel="stylesheet">
-      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-      <link href="http://fonts.googleapis.com/css?family=Artifika" rel="stylesheet" type="text/css">
-      <link href="css/ripples.min.css" rel="stylesheet">
-      <link href="css/material-wfont.min.css" rel="stylesheet">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <meta name="description" content="This site lists my projects, social media links, resume and contact info.">
-      <style>
-         body {
-         font-family: Artifika;
-         font-size:
-         }
-         #short_aboutme{
-         padding-top: 40px;
-         text-align: justify;
-         color: black;
-         }
-         th{
-         font-weight:bold;
-         text-align: left;
-         }
-      </style>
-   <body style="" class="">
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-               <span class="sr-only">Toggle navigation</span>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               </button>
-               <a class="navbar-brand" style="color:#FFFFFF" href="http://narendran.info">Home</a>
-            </div>
-            <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav">
-                  <li class="active">
-                     <a href="#">Projects</a>
-                  </li>
-                  <li>
-                     <a href="https://medium.com/@narens/" target="_blank" >Blog</a>
-                  </li>
-                  <li>
-                     <a href="http://narendrans.github.io/files/naren_cv.pdf" target="_blank">Resume</a>
-                  </li>
-                  <li>
-                     <a href="#" id="socialButton" data-target="#socialModal">Social</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <div id="footer">
-         <div class="container">
-            <center>
-               <p class="text-muted">
-                  &copy;Narendran.
-               </p>
-            </center>
-         </div>
-      </div>
-      <div class="modal fade" id="dataSuccessModal" tabindex="-1" role="dialog" aria-labelledby="dataSuccessModalLabel" aria-hidden="true">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <h4 class="modal-title" id="dataSuccessModalLabel">Thank you!</h4>
-               </div>
-               <div class="modal-body" style="color:green;">
-                  Thank you, I will be in touch with you shortly!
-                  <br>
-                  Meanwhile <a href="http://github.com/narendrans">fork me!</a>
-               </div>
-               <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal" autofocus="">
-                  Close
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="modal fade" id="socialModal" tabindex="-1" role="dialog" aria-labelledby="dataSuccessModalLabel" aria-hidden="true" style="display: none;">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <h4 class="modal-title" id="socialModalLabel">My Social Presence</h4>
-               </div>
-               <div class="modal-body">
-                  <center>
-                     &nbsp;&nbsp;&nbsp;
-                     <a href="http://linkedin.com/in/snarendran" id="linkedin" target="_blank" class="fa fa-linkedin" style="font-size: 28px; color: red; text-decoration: none;"></a>&nbsp;&nbsp;&nbsp; <a href="http://twitter.com/narens" id="twitter" target="_blank" class="fa fa-twitter" style="font-size:28px;color:red;text-decoration:none;"></a>&nbsp;&nbsp;&nbsp; <a href="http://github.com/narendrans" id="github" target="_blank" class="fa fa-github" style="font-size:28px;color:red;text-decoration:none;"></a>&nbsp;&nbsp;&nbsp; <a href="https://plus.google.com/u/0/+NarendranSankaran89/" id="google-plus" target="_blank" class="fa fa-google-plus" style="font-size:28px;color:red;text-decoration:none;"></a>
-                     <br>
-                     <br>
-                     <em><a href="https://github.com/narendrans/jquery-iconify" target="_blank">jquery-iconify!</a></em>
-                  </center>
-               </div>
-               <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal" autofocus="">
-                  Close
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div id="wrap">
-         <div class="container">
-            <div class="page-header" style="color:cornflowerblue;">
-               <div id="short_aboutme">
-                  Hi There! I am Naren and I am a Software Engineer. I love Web application development and I have experience with LAMP and Java stack. I like coding, UI design, motorbikes, travelling, coffee, physics and all of Nolan's movies (Inception tops it!). This is a single page website developed with bootstrap and material ui and is hosted on Github. Feel free to copy and use it! Checkout my <a href="http://www.narendran.info/blog">blog</a> or <a href="http://www.twitter.com/narens">Tweet me!</a>.
-               </div>
-               <center>
-                  <h4>Projects</h4>
-                  <i>The below data is pulled from Github using the Github API.</i>
-               </center>
-            </div>
-            <div class="row">
-               <center>
-                  <table class="table">
-                     <thead>
-                        <span id="loading">
-                        Please wait while fetching repositories... <br/><br/>
-                        <img src="https://cloud.githubusercontent.com/assets/2958570/9269329/bd2cc5dc-4268-11e5-971b-851ff156b2ee.GIF">
-                        </span>
-                     </thead>
-                     <tbody>
-                     </tbody>
-                  </table>
-               </center>
-            </div>
-            <div id="footer">
-               <div class="container">
-                  <center>
-                     <p class="text-muted">
-                        &copy;Narendran.
-                     </p>
-                  </center>
-               </div>
-            </div>
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-            <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-            <script src="https://rawgithub.com/narendrans/jquery-iconify/master/jquery.iconify.js"></script>
-            <script src="js/ripples.min.js"></script>
-            <script src="js/material.min.js"></script>
-            <script>
-               $(document).ready(function() {
-  				   $.material.init();
- 				});
-				 var githubRepoObject;
-				 $.ajax({
-				     type: "GET",
-				     dataType: "jsonp",
-				     crossDomain: true,
-				     url: "https://api.github.com/users/narendrans/repos?affiliation=owner&callback=?",
-				     success: function(data) {
-				         $('#loading').hide();
-				         $('thead').append('<th>Name</th><th>Description</th><th>Stars</th>');
-				         githubRepoObject = data;
-				         for (var i = 0; i < githubRepoObject.data.length; i++) {
-				             if (!githubRepoObject.data[i].fork)
-				                 $('tbody').append("<tr><td><a href='http://github.com/narendrans/" + githubRepoObject.data[i].name + "' target='_blank'>" + githubRepoObject.data[i].name + "</td><td>" + githubRepoObject.data[i].description + "</td><td>" + githubRepoObject.data[i].watchers + "</td></tr>");
-				         }
-				     }
-				 });
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+    <title>Narendran Sankaran</title>
+    <style>
+    body{
+        font-family: 'El Messiri', sans-serif;
+    }
+    </style>
+</head>
 
+<body>
+    <header>
+        <h1>Naren</h1>
+        <aside>Software Engineer; Skydiver; Backpacker</aside>
+    </header>
+    <hr/>
+        <h2>Software Engineer</h2>
+        
+        <p>Laziness and the satisfaction of automation are the two main things that drew me towards computer science and it continues to be so! I'm a full stack developer currently working for <a href="http://denodo.com">Denodo</a> in New York. See below for resume and links. </p>
+        
+        <h2>Skydiver</h2>
+        
+        <p>I won't claim to be adventurous, but falling from a plane seems to be the easiest way to experience heightened level of aliveness. I'm on the track to get my skydiving license and soon would like to do a HALO jump!</p>
+        
+        <h2>Backpacker</h2>
+        
+        <p>Travelling makes you more open minded. Living in a different country for the past few years and travelling to several other countries has given me some rich experiences.</p>
+        
+        <h2>Miscellaneous</h2>
+        
+        <p>I also like Physics, Politics, rock & hip-hop music, all movies directed by Nolan, few science fiction books, Consolas font for coding, Sublime as the text editor, Visual Studio/Eclipse as the IDE. </p>
 
-				 $('#socialButton').click(function(e) {
-				     e.preventDefault();
-				     $('#socialModal').modal();
-				 });
-				 $('#twitter').iconify();
-				 $('#linkedin').iconify();
-				 $('#github').iconify();
-				 $('#facebook').iconify();
-				 $('#google-plus').iconify();
-				 $('#stack-exchange').iconify();
-
-				 (function(i, s, o, g, r, a, m) {
-				     i['GoogleAnalyticsObject'] = r;
-				     i[r] = i[r] || function() {
-				         (i[r].q = i[r].q || []).push(arguments)
-				     }, i[r].l = 1 * new Date();
-				     a = s.createElement(o),
-				         m = s.getElementsByTagName(o)[0];
-				     a.async = 1;
-				     a.src = g;
-				     m.parentNode.insertBefore(a, m)
-				 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-				 ga('create', 'UA-4243578-9', 'auto');
-				 ga('send', 'pageview');
-               	
-            </script>
-         </div>
-      </div>
-   </body>
+        <h2>Links</h2>
+        
+        <p><ul>
+<li><a href="http://narendrans.github.io/files/naren_cv.pdf" target="_blank">Resume</a></li>
+        <li><a href="http://github.com/narendrans" target="_blank">Github</a></li>
+        <li><a href="http://linkedin.com/in/snarendran" target="_blank">LinkedIn</a></li>
+        </ul></p>
+    
+</body>
 </html>
