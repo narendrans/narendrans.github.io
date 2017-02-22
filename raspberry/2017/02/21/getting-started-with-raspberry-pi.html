@@ -68,11 +68,15 @@
 
 <p>Coming back to the pi, with the curiosity to learn more about basic electronics, I also got the <a href="https://www.amazon.com/gp/product/B01EWNUUUA">Elegoo Mega Kit</a>. This one comes with a version of Arduino. I stareted out by following few tutorials given with the Elegoo kit. Led, RGB Led circuits and other simple circuits with the sensors given in the Elegoo kit. With enough basic knowledge, I wanted to address the following problem I faced:</p>
 
-<p>Despite living in a resonably modern apartment, the heater/cooler does not have a digital thermostat and the analog knob is just unreliable making the room either too hot or too cold.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>  Control the temperature of the room through mobile
+</code></pre>
+</div>
 
 <p>Out of the many other possible solutions that involve, changing the apartment, installing an expensive thermostat etc. I decided to finalize on this:</p>
 
-<p>Record the room temperature with a temperature sensor and trigger the thermostat knob with the help of a servo.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>  Record the room temperature with a temperature sensor and trigger the thermostat knob with the help of a servo. Control this through API and eventually build a simple mobile app to do this.
+</code></pre>
+</div>
 
 <p>The first project would involve making use of the DHT11 to record the termperature and the humidity of my room. This isn’t the most accurate way but it definitely serves my purpose well. The Elegoo kit comes with a DHT11 and also a LCD. So the first real circuit I made is recording the temperature and the humidity of the room and displaying it in the LCD. Here is the pic:</p>
 
